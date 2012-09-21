@@ -88,9 +88,34 @@ select {
 }
 
 
+.btn-group {
+    display: inline-block;
+    font-size: 0;
+    margin: 0 4px 4px 4px;
+}
+
+.btn-group.alpha {
+    margin-left: 0;
+}
+
+.btn-group.omega {
+    margin-right: 0;
+}
+
+.btn-group .btn {
+    margin: 0 0 6px -1px;
+}
+
+
+.btn {
+    margin: 0 2px 6px 2px;
+    border-radius: 0;
+}
+
 a.btn {
     text-decoration: none;
 }
+
 
 .btn-primary,
 .btn-primary:visited {
